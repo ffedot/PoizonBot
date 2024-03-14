@@ -7,7 +7,6 @@ from src.keyboards import inline_customer_keyboard
 from src.states import *
 
 
-
 @dp.message_handler(commands=['start'])
 async def customer_start(message: types.Message):
     try:
